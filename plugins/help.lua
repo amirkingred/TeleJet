@@ -98,7 +98,7 @@ return {
     "/help: Show list of plugins.",
   },
   patterns = {
-    "[/#!\](help)$",
+    "^/(help)$",
   }, 
   run = run,
 }
