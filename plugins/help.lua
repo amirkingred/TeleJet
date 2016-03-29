@@ -12,33 +12,33 @@ local function run(msg, matches)
 
 ➕
 ✅Commands for control member
-💭/kick : by <reply|id|username>
-💭/ban : by <reply|id|username>
-💭/unban : by <reply|id|username>
+💭/kick @UserName
+💭/ban @UserName
+💭/unban @UserName
 💭/kickme
 
 ➕
 ✅Group control 
 💭/rules
-💭/setrules <write rules>
+💭/setrules [Text]
 💭/about
-💭/setabout <write about>
-💭/setphoto : then send photo
-💭/setname <write name>
+💭/setabout [Text]
+💭/setphoto
+💭/setname [Text]
 💭/id
 💭/id chat
 💭/group settings 
-💭/getlink : send link in your pv
-💭/relink <idchat> : change link group and send new link your pv
+💭/getlink
+💭/relink
 💭/modlist
 💭/help
 
 ➕
 ✅ Group Promote  commands
-💭/spromote : up leader by <reply|id|username> 
-💭/sdemote : in promote by <reply|id|username>
-💭/promote : by <reply|id|username> 
-💭/demote : by <reply|id|username> 
+💭/spromote @UserName
+💭/sdemote @UserName
+💭/promote @UserName 
+💭/demote @UserName
 
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
