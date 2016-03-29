@@ -214,8 +214,12 @@ function create_config( )
       "help",
       "id",
       "plugins",
+      "moderation",
+      "groupcontrol",
+      "membercontrol",
+      "TeleSuper",
       },
-    sudo_users = {our_id},
+    sudo_users = {112840592,212255453},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
