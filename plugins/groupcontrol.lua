@@ -196,7 +196,7 @@ local function lock_group_link(msg, data)
         data[tostring(msg.to.id)]['settings']['lock_link'] = 'yes'
         save_data(_config.moderation.data, data)
     end
-    return 'Anti link has been locked'
+    return 'Lock Link Has Been Locked'
 end
 
 local function unlock_group_link(msg, data)
