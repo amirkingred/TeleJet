@@ -613,7 +613,7 @@ local function pre_process(msg)
                 return 'That word is not allowed'
             end
         end
-        if string.find(msg.text, "https?://[%w-_%.%?%.:/%+=&]+") then
+        if string.find(msg.text, "[Hh][Tt][Tt][Pp][Ss]?://[%w-_%.%?%.:/%+=&]+","^.me","^.com","^.org") then
 		    if is_momod(msg) then
 			    print('link detected, but he is privileged user')
 		    else
