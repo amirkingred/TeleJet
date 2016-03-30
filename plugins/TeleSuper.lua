@@ -1,12 +1,12 @@
 do
 function run(msg, matches)
-  return " TeleSuper V2 Based On Lua \n \n \n Developer: @TelePublic \n Channel: @TeleSuperTeam"
+  return " TeleIran V4 Based On Lua \n \n \n Developer: @TelePublic \n Channel: @TeleIranTeam"
   end
 return {
-  description = " TeleSuper ", 
-  usage = " TeleSuper ",
+  description = " TeleIran ", 
+  usage = " TeleIran ",
   patterns = {
-    "[#/!][Tt]ele[Ss]uper$",
+    "[#/!][Tt]ele[Ii]ran$",
   },
   run = run
 }
