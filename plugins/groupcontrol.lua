@@ -196,7 +196,7 @@ local function lock_group_link(msg, data)
         data[tostring(msg.to.id)]['settings']['lock_link'] = 'yes'
         save_data(_config.moderation.data, data)
     end
-    return 'Lock Link Has Been Locked'
+    return 'Anti link has been locked'
 end
 
 local function unlock_group_link(msg, data)
@@ -613,7 +613,7 @@ local function pre_process(msg)
                 return 'That word is not allowed'
             end
         end
-        if string.find(msg.text, "[Hh][Tt][Tt][Pp][Ss]?://[%w-_%.%?%.:/%+=&]+","^.me","^.com","^.org") then
+        if string.find(msg.text, "https?://[%w-_%.%?%.:/%+=&]+") then
 		    if is_momod(msg) then
 			    print('link detected, but he is privileged user')
 		    else
@@ -703,7 +703,7 @@ local function pre_process(msg)
                 return 'That word is not allowed'
             end
         end
-        if string.find(msg.text, "[Hh][Tt][Tt][Pp][Ss]?://[%w-_%.%?%.:/%+=&]+","^.me","^.com","^.org") then
+        if string.find(msg.text, "https?://[%w-_%.%?%.:/%+=&]+") then
 		    if is_momod(msg) then
 			    print('link detected, but he is privileged user')
 		    else
