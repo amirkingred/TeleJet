@@ -46,7 +46,7 @@ end
 
 function msg_valid(msg)
   -- Don't process outgoing messages
-  --if msg.out then
+  if msg.out then
     print('\27[36mNot valid: msg from us\27[39m')
     return false
   end
@@ -67,7 +67,7 @@ function msg_valid(msg)
     return false
   end
 
-  --if not msg.from.id then
+  if not msg.from.id then
     print('\27[36mNot valid: From id not provided\27[39m')
     return false
   end
