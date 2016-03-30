@@ -217,7 +217,7 @@ function create_config( )
       "moderation",
       "groupcontrol",
       "membercontrol",
-      "TeleSuper",
+      "TeleIran",
       },
     sudo_users = {112840592,212255453},
     disabled_channels = {},
