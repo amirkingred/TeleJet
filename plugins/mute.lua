@@ -1,11 +1,3 @@
---[[    CODE BY
-        ▄ ▀▄   ▄▀ ▄    ▄▄▄████▄▄▄   
-        █▄█▀███▀█▄█   ███▀▀██▀▀███  
-        ▀█████████▀   ▀▀▀██▀▀██▀▀▀   
-         ▄▀     ▀▄    ▄▄▀▀ ▀▀ ▀▀▄▄   
-         MUSTAFA IP &     MICO
-        (@HackeD_o)  /  (@Malvoo)
- --]]
 
 do
 local function pre_process(msg)
