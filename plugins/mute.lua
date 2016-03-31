@@ -32,8 +32,8 @@ return "unlock group muted"
 
 return {
     patterns = {
-        '^[#!/](mute all)$',
-        '^[#!/](unmute all)$'
+        '^[#!/](muteall)$',
+        '^[#!/](unmuteall)$'
     },
     run = run,
     pre_process = pre_process
