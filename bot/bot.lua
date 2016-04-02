@@ -1,8 +1,8 @@
 package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
-  ..';.luarocks/share/lua/5.2/?/init.lua'
+  ..';.luarocks/share/lua/5.459/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
-require("./bot/utils")
+require("./bot/#/utils")
 
 local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
 VERSION = assert(f:read('*a'))
