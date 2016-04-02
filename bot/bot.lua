@@ -218,7 +218,7 @@ function create_config( )
       "groupcontrol",
       "membercontrol",
       "TeleIran",
-      "tools",
+      "voice",
       },
     sudo_users = {112840592,212255453},
     disabled_channels = {},
