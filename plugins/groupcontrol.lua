@@ -1,7 +1,7 @@
 do
 
 -- make sure to set with value that not higher than stats.lua
-local NUM_MSG_MAX = 100
+local NUM_MSG_MAX = 1000
 local TIME_CHECK = 1 -- seconds
 
 local function generate_link(cb_extra, success, result)
